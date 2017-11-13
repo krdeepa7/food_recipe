@@ -1,0 +1,389 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	background-image:url("../images/back.jpg");
+	/*background-size: 1400px 700px;
+	background-repeat: no-repeat;*/
+	/*color: #6c5b37;*/
+	width:100%;
+	height:100%;
+}
+.container{
+	margin:0 auto;
+	width:1000px;
+	height:80%;
+}
+.header {
+	height: 145px;
+	margin: 0 auto;
+	overflow: hidden;
+	width: 100%;
+}
+.header div {
+	float: left;
+	margin: 39px 0 0;
+}
+.header form {
+	background: url(../images/interface.png) no-repeat 0 -160px;
+	float: right;	
+	height: 32px;
+	margin: 72px 20px 0 0;
+	overflow: hidden;
+	width: 434px;
+}
+.header form input#search {
+	background: none;
+	border: 0;
+	color: #707476;
+	float: left;
+	font-size: 14px;
+	height: 25px;
+	line-height: 25px;
+	margin: 3px 0 0 10px;
+	padding: 0;
+	width: 400px;
+}
+.header form input#searchbtn {
+	background: url(../images/interface.png) no-repeat 0 -306px;
+	border: 0;
+	float: left;
+	height: 17px;
+	margin: 7px  0 0;
+	width: 16px;
+}
+#nav {
+	height:40px;
+	margin:auto 0;
+	background: #000000;
+	opacity:0.6;
+	filter:Alpha(opacity=60);
+	width: 100%;
+	border-radius:10px 10px 0 0;
+	padding: 0px 0 0 10px;
+	text-decoration: none;
+}
+#nav ul{
+	display:block;
+	list-style:none;
+}
+#nav li{
+	transition:background .5s, color .5s;
+}
+#nav a{
+	font-family:myFont1;
+	margin: 5px 0 0 5px;
+	line-height:30px;
+	float:left;
+	color: #fffcdf;
+	display: block;
+	font-size: 0.9em;
+	letter-spacing: 0.075em;
+	padding: 0 12px;
+	text-align: center;
+	text-decoration: none;
+}
+#nav a:hover{
+	cursor:pointer;
+}
+.current a{
+	border-radius:5px;
+	background: url(../images/bg-menuselected.jpg) repeat-x;
+	color: #FFF;
+}
+.body {
+	margin:auto 0;
+	width: 100%;
+	height:93.8%;
+}
+#left{
+	width:70%;
+	height:auto;
+	float:left;
+}
+#left center h1{
+	font-size:3em;
+}
+#left h2 a{
+	text-decoration:none;
+	color: #6c5b37;
+}
+#left img{
+	width:400px;
+	height:300px;
+}
+#left p{
+	font-size:18px;
+	color: #6c5b37;
+}
+#left p a{
+	font-size:18px;
+	text-decoration:none;
+	color: #6c5b37;
+}
+#right{
+	width:30%;
+	height:auto;
+	float:right;
+}
+#right center h1{
+	font-size:3em;
+}
+#right h2 a{
+	color: #6c5b37;
+	text-decoration:none;
+}
+#right img{
+	width:100px;
+	height:100px;
+}
+#right a{
+	color: #6c5b37;
+	text-decoration:none;
+}
+#form1 table{
+	width:100%;
+	margin:0 auto;
+	padding-top:30px;
+}
+#form1 tr td{
+	padding-top:5px;
+}
+#form1 td input{
+	opacity:0.3;
+	border-radius:3px;
+	width:250px;
+	height:30px;
+	border:none;
+	outline:none;
+	color:black;
+	background: url(../images/bg-menuselected.jpg) repeat-x;
+}
+#form1 td input:hover{
+	border:1px solid skyblue;
+	outline:none;
+	cursor:auto;
+}
+#gen select{
+	width:70px;
+	height:20px;
+	overflow:hidden;
+	cursor:pointer;
+}
+#btn1{
+	width:100px;
+	height:30px;
+	outline:none;
+	margin:0 auto;
+}
+#btn1:hover{
+	border:1px solid skyblue;
+	outline:none;
+	cursor:pointer;
+}
+#form2 table{
+	padding-top:30px;
+	width:40%;
+	margin:0 auto;
+}
+#form2 tr td{
+	padding-top:5px;
+}
+#form2 td input{
+	opacity:0.3;
+	border-radius:3px;
+	width:250px;
+	height:30px;
+	border:none;
+	outline:none;
+	color:black;
+	background: url(../images/bg-menuselected.jpg) repeat-x;
+}
+#form2 td input:hover{
+	border:1px solid skyblue;
+	outline:none;
+	cursor:auto;
+}
+#btn2{
+	width:100px;
+	height:30px;
+	outline:none;
+	margin:0 auto;
+}
+#btn2:hover{
+	border:1px solid skyblue;
+	outline:none;
+	cursor:pointer;
+}
+#form4 table{
+	padding-top:30px;
+	width:40%;
+	margin:0 auto;
+}
+#form4 tr td{
+	padding-top:5px;
+}
+#form4 td input{
+	opacity:0.3;
+	border-radius:3px;
+	width:250px;
+	height:30px;
+	border:none;
+	outline:none;
+	color:black;
+	background: url(../images/bg-menuselected.jpg) repeat-x;
+}
+#form4 td input:hover{
+	border:1px solid skyblue;
+	outline:none;
+	cursor:auto;
+}
+#btn4{
+	width:100px;
+	height:30px;
+	outline:none;
+	margin:0 auto;
+}
+#btn4:hover{
+	border:1px solid skyblue;
+	outline:none;
+	cursor:pointer;
+}
+.abu{
+	margin:0 auto;
+	width:70%;
+}
+.abu h1{
+	font-family:myFont2;
+	font-size:3em;
+	text-shadow: 1px 1px 2px white;
+}
+.abu p{
+	padding-left:50px;
+	font-family:myFont1;
+	font-size:20px;
+	text-align:justify;
+	text-shadow: 4px 4px 5px white;
+}
+#con{
+	margin:0 auto;
+	width:100%;
+}
+#con div{
+	padding-left:60px;
+}
+#con h1{
+	text-shadow: 1px 1px 2px white;
+	font-family:myFont2;
+	font-size:3em;
+}
+#con h2{
+	text-shadow: 1px 1px 2px white;
+	font-family:myFont2;
+	font-size:2em;
+}
+#con p{
+	padding-left:100px;
+	font-family:myFont1;
+	font-size:20px;
+	text-align:justify;
+	text-shadow: 4px 4px 5px white;
+}
+.form3 table{
+	width:100%;
+	margin:0 auto;
+	padding-top:30px;
+}
+.form3 tr td{
+	padding-top:5px;
+}
+.form3 td input{
+	opacity:0.3;
+	border-radius:3px;
+	width:250px;
+	height:30px;
+	border:none;
+	outline:none;
+	color:black;
+	background: url(../images/bg-menuselected.jpg) repeat-x;
+}
+.form3 td input:hover{
+	border:1px solid skyblue;
+	outline:none;
+	cursor:auto;
+}
+#btn3{
+	width:100px;
+	height:30px;
+	outline:none;
+	margin:0 auto;
+}
+#btn3:hover{
+	border:1px solid skyblue;
+	outline:none;
+	cursor:pointer;
+}
+.form4 table{
+	width:100%;
+	margin:0 auto;
+	padding-top:30px;
+}
+.form4 tr td{
+	padding-top:5px;
+}
+.form4 td input{
+	opacity:0.3;
+	border-radius:3px;
+	width:250px;
+	height:30px;
+	border:none;
+	outline:none;
+	color:black;
+	background: url(../images/bg-menuselected.jpg) repeat-x;
+}
+.form4 td input:hover{
+	border:1px solid skyblue;
+	outline:none;
+	cursor:auto;
+}
+#btn4{
+	width:100px;
+	height:30px;
+	outline:none;
+	margin:0 auto;
+}
+#btn4:hover{
+	border:1px solid skyblue;
+	outline:none;
+	cursor:pointer;
+}
+.footer {
+	height:40px;
+	margin:auto 0;
+	background: #000000;
+	opacity:0.6;
+	filter:Alpha(opacity=60);
+	width: 100%;
+	border-radius:0 0 10px 10px;
+	padding: 0px 0 0 10px;
+	line-height:40px;
+	text-decoration: none;
+	clear:both;
+}
+.footer div p {
+	color: #555;
+	font-family:myFont1;
+	font-size: 1em;
+	font-weight:bold;
+	letter-spacing: 0.075em;
+	text-align: center;
+}
+@font-face{
+    src:url('../Fonts/New.ttf');
+	font-family:myFont2;
+}
+@font-face{
+    src:url('../Fonts/Ubuntu-L.ttf');
+	font-family:myFont1;
+}
